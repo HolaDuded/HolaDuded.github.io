@@ -1,0 +1,9 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: Verdana;
+}
+a:link {color: rgb(64, 149, 224); text-decoration: none;}
+a:visited {color: rgb(64, 149, 224); text-decoration: none;}
+a:hover {color: rgb(255, 162, 0); text-decoration: none;}
+a:active {color:rgb(128, 0, 26); text-decoration: none;}
