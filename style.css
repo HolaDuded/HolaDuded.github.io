@@ -4,7 +4,7 @@ body {
   font-family: Verdana;
 }
 li,ul,body {
-  font-size:35px;
+  font-size:20px;
 }
 a:link {color: rgb(64, 149, 224); text-decoration: none;}
 a:visited {color: rgb(64, 149, 224); text-decoration: none;}
