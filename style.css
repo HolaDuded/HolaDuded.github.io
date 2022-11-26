@@ -3,7 +3,7 @@ body {
   color: black;
   font-family: Verdana;
 }
-li {
+li,ul,body {
   font-size:15px;
 }
 a:link {color: rgb(64, 149, 224); text-decoration: none;}
