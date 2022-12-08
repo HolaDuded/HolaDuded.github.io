@@ -1,12 +1,44 @@
-body {
-  background-color: white;
-  color: black;
-  font-family: Verdana;
+body{
+  background-color:white;
+  color:black;
+  font-family:Verdana;
 }
-li,ul,body {
+li,ul,body{
   font-size:20px;
 }
-a:link {color: rgb(64, 149, 224); text-decoration: none;}
-a:visited {color: rgb(64, 149, 224); text-decoration: none;}
-a:hover {color: rgb(255, 162, 0); text-decoration: none;}
-a:active {color:rgb(128, 0, 26); text-decoration: none;}
+a:link{color:rgb(64,149,224);text-decoration:none;}
+a:visited{color:rgb(64,149,224);text-decoration:none;}
+a:hover{color:rgb(255,162,0);text-decoration:none;}
+a:active{color:rgb(128,0,26);text-decoration:none;}
+.auto{cursor:auto;}
+.default{cursor:default;}
+.none{cursor:none;}
+.context-menu{cursor:context-menu;}
+.help{cursor:help;}
+.pointer{cursor:pointer;}
+.progress{cursor:progress;}
+.wait{cursor:wait;}
+.cell{cursor:cell;}
+.crosshair{cursor:crosshair;}
+.text{cursor:text;}
+.vertical-text{cursor:vertical-text;}
+.alias{cursor:alias;}
+.copy{cursor:copy;}
+.move{cursor:move;}
+.no-drop{cursor:no-drop;}
+.not-allowed{cursor:not-allowed;}
+.all-scroll{cursor:all-scroll;}
+.col-resize{cursor:col-resize;}
+.row-resize{cursor:row-resize;}
+.n-resize{cursor:n-resize;}
+.e-resize{cursor:e-resize;}
+.s-resize{cursor:s-resize;}
+.w-resize{cursor:w-resize;}
+.ns-resize{cursor:ns-resize;}
+.ew-resize{cursor:ew-resize;}
+.ne-resize{cursor:ne-resize;}
+.nw-resize{cursor:nw-resize;}
+.se-resize{cursor:se-resize;}
+.sw-resize{cursor:sw-resize;}
+.nesw-resiz{cursor:nesw-resize;}
+.nwse-resize{cursor:nwse-resize;}
