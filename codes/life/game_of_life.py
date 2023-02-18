@@ -62,30 +62,29 @@ def get_action_doer(action,all_actions):
         action=action.replace(",","")
         return "+"+str(action)
 all_actions=[
-    "It's Great Uncle Max's 100th birthday!\nThrow the party of a lifetime!\nPAY BANK 30,000",
-    "Sell flowers from your garden!\nName your favorite flower.\nCOLLECT 70,000 FROM BANK",
-    "Buy a priceless painting!\nTell everyone what it looks like.\nPAY BANK 50,000",
-    "Buy a home cinema!\nName your favorite movie.\nPAY BANK 50,000",
-    "Buy a designer suit!\nLooking good!\nPAY BANK 30,000",
-    "Write a children's book!\nTell everyone what it's about.\nCOLLECT 40,000 FROM BANK",
-    "Start a family band!\nWhat would everybody play?\nPLAY BANK 30,000",
+    "It's Great Uncle Bob's 100th birthday!\nThrow him a great party!\nPAY BANK 30,000",
+    "Sell apples from your apple trees!\nCOLLECT 70,000 FROM BANK",
+    "Buy an expensive painting!\nPAY BANK 50,000",
+    "Build a home movie theater!\nPAY BANK 50,000",
+    "Buy a designer outfit!\nPAY BANK 30,000",
+    "Write a best-selling book!\nCOLLECT 40,000 FROM BANK",
+    "Start a band!\nPLAY BANK 30,000",
     "Climb Mount Everest!\nPAY BANK 30,000",
-    "Win a skateboarding competition!\nShow everyone your moves.\nCOLLECT 100,000 FROM BANK",
-    "Sail around the world!\nTell everyone where you're going.\nPAY BANK 50,000",
-    "Make your yard an adventure playground!\nPAY BANK 30,000",
-    "Pass your driving test!\nTell everyone what car you got.\nPAY BANK 50,000",
-    "Get a pool!\nIt's time for scorching summer fun.\nPAY BANK 50,000",
-    "Your pet goat wins a ribbon!\nTell everyone its name.\nCOLLECT 120,000 FROM BANK",
-    "Win \"Family of the Year\" award!\nHug everyone to say thanks.\nCOLLECT 40,000 FROM BANK",
-    "Learn to skydive!\nThat's one long free fall\nPAY BANK 70,000",
-    "Give money to animal rescue!\nName your favorite animal.\nPAY BANK 20,000",
-    "Win a \"Beautiful Forehead\" Contest!\nTell everyone why your forehead's the prettiest.\nCOLLECT 40,000 FROM BANK",
-    "Build a maze!\nEveryone loves it!\nCOLLECT 50,000 FROM BANK",
-    "Tax refund!\nHooray!\nCOLLECT 50,000 FROM BANK",
-    "Start a snail farm!\nShells are the future.\nPAY BANK 50,000",
-    "Set up a school!\nEveryone wants to go there!\nCOLLECT 40,000 FROM BANK",
-    "Buy a tropical aquarium!\nName your fish.\nPAY BANK 20,000",
-    "Trace your family tree!\nDiscover a family fortune.\nCOLLECT 70,000 FROM BANK"
+    "Win a video game competition!\nCOLLECT 100,000 FROM BANK",
+    "Travel around the world!\nPAY BANK 100,000",
+    "Add a new room onto your house.\nPAY BANK 75,000",
+    "Pass your driving test!\nPAY BANK 30,000",
+    "Get a pool!\nPAY BANK 50,000",
+    "Your pet goat wins a ribbon!\nCOLLECT 120,000 FROM BANK",
+    "Win a Noble Peace Prize!\nCOLLECT 150,000 FROM BANK",
+    "Learn to skydive!\nPAY BANK 70,000",
+    "Give money to animal rescue!\nPAY BANK 20,000",
+    "Build an escape room!\nCOLLECT 50,000 FROM BANK",
+    "Tax refund.\nCOLLECT 50,000 FROM BANK",
+    "Start a turtle farm!\nPAY BANK 50,000",
+    "Start a college!\nCOLLECT 40,000 FROM BANK",
+    "Buy a tropical aquarium!\nPAY BANK 25,000",
+    "Discover a family fortune!\nCOLLECT 175,000 FROM BANK"
 ]
 again=""
 fancy=tinput("Enable fancy output (y/n)? ").lower()
@@ -107,8 +106,8 @@ while again!="q":
     moneys=[]
     jobs=[]
     actions=[]
-    avajobs=[100000,80000,130000,100000,100000,120000,110000,100000]
-    avajobname=["Scientist","Fashion Designer","Doctor","Teacher","Secret Agent","Lawyer","Video Game Designer","Veterinarian"]
+    avajobs=[100000,80000,130000,100000,100000,120000,110000,100000,250000]
+    avajobname=["Scientist","Fashion Designer","Doctor","Teacher","Secret Agent","Lawyer","Video Game Designer","Veterinarian","AI Scientist"]
     paydays=[15,20,30,41,47,54,62,74,84,93,99,104]
     spintowin=[18,32,50,68,78,95]
     houses=[34,45,53,59,73,82,98]
