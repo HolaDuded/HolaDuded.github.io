@@ -228,6 +228,6 @@ if analytics=="y":
         return entered
     l=Loader("Importing Analytics ","",0.05)
     print()
-    import Game_Of_Life_Analytics_Code
+    import life_analytics
     print()
 tprint("Thanks for playing!")
